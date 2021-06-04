@@ -1,8 +1,28 @@
 body {
-    background-color: lightcyan;
+    background-color: #f1f1f1;
+    font-family: Questrial;
 }
 
-h1, h2 {
-    color: navy;
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120px;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: justify;
+    color: #277bff;
+    font-size: 30px;
     margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* for centering photo */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
