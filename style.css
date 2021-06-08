@@ -58,6 +58,12 @@ h3 {
     text-transform: uppercase;
 }
 
+.faq {
+    color: #277bff;
+    font-weight: 500;
+    font-style: italic
+}
+
 /* for centering photo */
 .center {
     display: block;
