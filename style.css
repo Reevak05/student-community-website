@@ -2,6 +2,7 @@ body {
     background-color: #f1f1f1;
     font-family: 'Poppins', sans-serif;
     text-align: left;
+    font-size: 16px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -9,7 +10,7 @@ body {
 h1 {
     color: black;
     text-align: center;
-    font-size: 120px;
+    font-size: 90px;
     font-weight: 600;
     line-height: 1;
     margin-bottom: 0px;
@@ -22,7 +23,7 @@ h1 {
 h2 {
     text-align: center;
     color: #277bff;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     line-height: 1;
     margin-bottom: 0px;
@@ -40,14 +41,14 @@ h3 {
     line-height: 1;
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .the {
     text-align: center;
     color: #277bff;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 600;
     line-height: 1;
     margin-bottom: 0px;
