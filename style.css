@@ -72,3 +72,11 @@ h3 {
     margin-right: auto;
     margin-top: auto;
 }
+
+.quote {
+    font-size: 20px;
+}
+
+.quotation-mark {
+    color: #277bff;
+}
