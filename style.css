@@ -5,12 +5,15 @@ body {
     font-size: 16px;
     margin-left: 20px;
     margin-right: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 h1 {
     color: black;
     text-align: center;
-    font-size: 90px;
+    font-size: 93px;
     font-weight: 600;
     line-height: 1;
     margin-bottom: 0px;
