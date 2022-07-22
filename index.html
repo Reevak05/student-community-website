@@ -145,7 +145,7 @@
 <!--get started-->
 <a id="getstarted"></a>
 <section class="input">
-    <form name="Get Started" data-netlify="true" class="row align-items-center row-cols-lg-5 g-3">
+    <form name="Get Started" data-netlify="true" method="POST" class="row align-items-center row-cols-lg-5 g-3">
         <div class="col-sm-auto">
             <b>Get started by entering your information here.</b> Due to server constraints, we can't just have a link
             for you to add the bot, but we'd love to work with you! Fill out the form, and we'll get a Student Community
@@ -153,22 +153,18 @@
         </div>
 
         <div class="col-sm-auto">
-            <label for="contactInput" class="form-label">Email address or Discord username<input type="text"
-                                                                                                 class="form-control"
-                                                                                                 id="contactInput"
-                                                                                                 placeholder="example#0000"></label>
-
+            <label for="contactInput" class="form-label">Email address or Discord username</label>
+            <input type="text" class="form-control" id="contactInput" placeholder="example#0000">
         </div>
 
         <div class="col-sm-auto">
-            <label for="schoolInput" class="form-label">Your school<input type="text" class="form-control"
-                                                                          id="schoolInput" placeholder="school"></label>
+            <label for="schoolInput" class="form-label">Your school</label>
+            <input type="text" class="form-control" id="schoolInput" placeholder="school">
         </div>
 
         <div class="col-sm-auto">
-            <label for="schoolInput" class="form-label">You'll be ready in no time!
-                <button type="submit" class="btn btn-light col-12">Submit</button>
-            </label><br>
+            <label for="schoolInput" class="form-label">You'll be ready in no time!</label><br>
+            <button type="submit" class="btn btn-light col-12">Submit</button>
         </div>
 
         <div class="col-sm-auto col-xs-12 text-center">
